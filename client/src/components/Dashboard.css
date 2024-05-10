@@ -1,0 +1,293 @@
+
+.header--container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap; 
+
+    gap: 50px;
+
+
+
+
+
+}
+
+.system--container{
+    display: flex;
+    align-items: center;
+    justify-content: right; 
+    margin-top: 3%;
+
+
+
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+  
+    &:hover {
+      transform: scale(1.05); /* Scale up the image on hover */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.695);
+    }
+    
+
+
+
+
+
+}
+
+
+.systemSwitch{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-right: 20%;
+    margin-left: 5%;
+
+  
+    background-color: #3700A4;
+    width: 300px;
+
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+  
+    &:hover {
+      transform: scale(1.05); /* Scale up the image on hover */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.695);
+    }
+
+
+
+
+
+}
+
+.assets--container{
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+    margin-top: 3%;
+
+
+
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+  
+    &:hover {
+      transform: scale(1.05); /* Scale up the image on hover */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.695);
+    }
+
+
+
+
+
+}
+
+.AssetsSwitch{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-right: 5%;
+    margin-left: 10%;
+
+
+  
+    background-color: #3700A4;
+    width: 300px;
+
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+  
+    &:hover {
+      transform: scale(1.05); /* Scale up the image on hover */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.695);
+    }
+
+
+
+
+
+}
+
+.table--container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap; 
+
+    gap: 50px;
+    
+
+
+
+
+}
+
+
+.mainSystemTable--container{
+    
+    margin-top: 2%;
+
+
+
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 800px;
+    height: 550px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: aliceblue;
+   
+    
+
+
+
+}
+
+.AdditionsSystem--container{
+
+    margin-top: 2%;
+
+
+
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 800px;
+    height: 550px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: aliceblue;
+  
+    
+
+
+
+}
+
+.mainTable{
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0%;
+    padding: 20px;
+   
+    
+
+
+    
+
+}
+
+
+
+
+table, td, th {  
+    
+    font-size: 15px;
+    border: 1px solid #ffffff ;
+
+    text-align: center;
+    border-radius: 5px;
+    
+  
+  }
+  
+  table {
+    font-size: 15px;
+    border: 1px solid #ffffff00;
+    border-collapse: separate; /* Set to separate to create a gap between cells */
+    border-spacing: 10px; /* Adjust this value to control the size of the gap */
+    text-align: center;
+
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+  
+    &:hover {
+      transform: scale(1.05); /* Scale up the image on hover */
+      text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.695);
+    }
+  }
+
+  th{
+
+    color: green;
+    font-weight: bolder;
+    font-size: 20px;
+   
+  }
+
+
+
+.verdict--container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+
+
+}
+
+.verdict{
+    text-indent: 20px;
+  
+    padding: 15px 30px;
+    padding-top: 0px;
+    
+
+    background-color: #3700A4;
+width: 700px;
+
+height: 150px;
+border-radius: 10px;
+font-size: 15px;
+font-weight: lighter;
+color: aliceblue;
+
+transition: transform 0.3s ease, text-shadow 0.3s ease;
+text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+
+&:hover {
+  transform: scale(1.02); /* Scale up the image on hover */
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.695);
+}
+
+}
+  
+.AdditionsTable{
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0%;
+    padding: 20px;
+    
+
+
+    
+
+}

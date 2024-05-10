@@ -1,0 +1,223 @@
+.AuthBox{
+    width: 500px;
+    height: 700px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 15px;
+
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.Auth--header {
+    font-weight: bold;
+    font-size: 50px; /* Adjust the font size as needed */
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /* Add any other styles you need */
+  }
+  .Auth--email {
+    text-align: start;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 30px; /* Adjust the font size as needed */
+    color: rgb(0, 0, 0);
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+  
+  
+    /* Increase input field size */
+   
+    /* Add any other styles you need */
+  } 
+  
+  .Auth--email label {
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 15px
+  
+  
+    /* Increase input field size */
+   
+    /* Add any other styles you need */
+  } 
+
+  .Auth--password label {
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 15px
+  
+  
+    /* Increase input field size */
+   
+    /* Add any other styles you need */
+  } 
+
+  .Auth--key label {
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 15px
+  
+  
+    /* Increase input field size */
+   
+    /* Add any other styles you need */
+  } 
+
+  .Auth--email input {
+
+    font-weight: bold;
+    font-size: 30px; /* Adjust the font size as needed */
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    
+
+    /* Increase input field size */
+   
+    /* Add any other styles you need */
+  } 
+  
+  .Auth--password {
+    text-align: start;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 30px; /* Adjust the font size as needed */
+    color: rgb(0, 0, 0);
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /* Increase input field size */
+   
+    /* Add any other styles you need */
+  } 
+  
+
+  .Auth--password input {
+    font-weight: bold;
+    font-size: 30px; /* Adjust the font size as needed */
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    /* Increase input field size */
+   
+    /* Add any other styles you need */
+  } 
+  
+
+  .Auth--key {
+    text-align: start;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 30px; /* Adjust the font size as needed */
+    color: rgb(0, 0, 0);
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /* Increase input field size */
+   
+    /* Add any other styles you need */
+  } 
+  
+
+  .Auth--key input {
+    font-weight: bold;
+    font-size: 30px; /* Adjust the font size as needed */
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    /* Increase input field size */
+   
+    /* Add any other styles you need */
+  } 
+  
+
+  @keyframes shakeAndHover {
+    
+    0%, 100% { transform: translateX(0) scale(1); }
+    20% { transform: translateX(-10px) scale(1.05); }
+    40% { transform: translateX(10px) scale(1.05); }
+    60% { transform: translateX(-10px) scale(1.05); }
+    80% { transform: translateX(10px) scale(1.05); }
+  }
+  
+  /* Apply the combined animation to an element */
+  .shakeAndHover {
+    
+    animation: shakeAndHover 0.5s ease-in-out, hoverEffect 0.3s ease;
+  
+    transition: 0.5s ease-in-out, 0.3s ease;
+     
+   
+
+     /* You can use the 'transition' property for hover effect */
+  
+    /* Define the hover effect separately */
+    @keyframes hoverEffect {
+     
+      0% { transform: scale(1); }
+      100% { transform: scale(1.05); }
+    }
+
+    .custom-gradient-button{
+      
+        background-color: rgb(255, 3, 3);
+        
+    
+    }
+
+    .Auth--header input{
+        transition: transform 1s ease, box-shadow 1s ease;
+        text-shadow: 0px 4px 8px rgba(255, 5, 5, 0.6);
+        box-shadow: 0px 4px 8px rgba(255, 5, 5, 0.6);
+    
+
+    }
+  
+    .Auth--email input{
+        transition: transform 1s ease, box-shadow 1s ease;
+        text-shadow: 0px 4px 8px rgba(255, 5, 5, 0.6);
+        box-shadow: 0px 4px 8px rgba(255, 5, 5, 0.6);
+    
+
+    }
+    .Auth--key input{
+        transition: transform 1s ease, box-shadow 1s ease;
+        text-shadow: 0px 4px 8px rgba(255, 5, 5, 0.6);
+        box-shadow: 0px 4px 8px rgba(255, 5, 5, 0.6);
+    
+
+    }
+    .Auth--password input{
+        transition: transform 1s ease, box-shadow 1s ease;
+    text-shadow: 0px 4px 8px rgba(255, 5, 5, 0.6);
+    box-shadow: 0px 4px 8px rgba(255, 5, 5, 0.6);
+
+    }
+
+  
+ 
+    
+
+
+
+  }

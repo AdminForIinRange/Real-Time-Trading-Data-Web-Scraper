@@ -1,0 +1,54 @@
+
+.Selection--Row {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top:5%;
+
+ 
+    /* Horizontally center items */
+  }
+  
+  .Selection--Row > div {
+    margin: 20px;
+  }
+  .SelectionImgHandler img {
+    width: 200px;
+
+
+    object-fit: contain;
+    border-radius: 25px;
+    background-color: rgba(56, 12, 189, 0.34);
+    padding: 30px;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+  
+    &:hover {
+      transform: scale(1.07); /* Scale up the image on hover */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.695);
+    }
+  }
+  
+  
+  .Selection--Header--Container {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: rgb(255, 255, 255);
+    background-color: #353947;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+    
+  }
+
+  .sorter{
+ display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }

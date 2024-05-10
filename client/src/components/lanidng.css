@@ -1,0 +1,54 @@
+.landingImg{
+
+    position: absolute;
+    left: 50%;
+    object-fit: contain; 
+    top: 0px;
+    left: 900px;
+    width: 1000px;
+
+
+
+}
+
+
+.Login {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  
+    
+}
+
+
+.custom-gradient-button {
+    text-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+    padding: 1em 3em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    border: solid #ffffff 2px;
+  
+  
+
+    background: linear-gradient(120deg, rgba(36, 255, 167, 0.5), rgba(42, 25, 230, 0.5), rgba(20, 174, 194, 0.5));
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+
+
+    
+
+  }
+  
+  .custom-gradient-button:hover {
+    text-shadow: 0px 4px 8px rgba(0,0,0,1);
+    background-position: 0 0;
+     
+    
+  }
+
+  
