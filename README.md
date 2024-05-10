@@ -2,11 +2,14 @@
 
 This project focused on improving backend development skills by creating a real-time trading data web scraper. Through this project, I learned how to utilize Puppeteer to scrape webpages and emit the data to the client-side using Socket.io, eliminating the need for a RESTful API. Additionally, I refined my Node.js and Express skills. The project was built with React, Puppeteer, Express, Socket.io, and Animate.css.
 
-![image](https://github.com/AdminForIinRange/Trading-Project/assets/91888685/53d523ce-43e3-430e-b226-b0f8cf4bdbf6)
+![image](https://github.com/AdminForIinRange/Trading-Project/assets/91888685/5f6007db-137c-4ec0-a9c7-c31b7d97f928)
 
-![image](https://github.com/AdminForIinRange/Trading-Project/assets/91888685/89f7e70b-80ab-4aa6-8bc6-7f191f69b78a)
 
-![image](https://github.com/AdminForIinRange/Trading-Project/assets/91888685/964192e7-6ac5-4c77-9380-733f5ecc13b4)
+![image](https://github.com/AdminForIinRange/Trading-Project/assets/91888685/dc6d9732-26ec-4e57-baa4-1c06d30f1f48)
+
+
+![image](https://github.com/AdminForIinRange/Trading-Project/assets/91888685/dc6697e7-83ca-4ed3-9efc-4b9d27f88ff3)
+
 
 ## Key Features
 
