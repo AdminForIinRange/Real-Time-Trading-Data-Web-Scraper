@@ -1,7 +1,6 @@
 # Real-Time Trading Data Web Scraper
 
-This project focused on improving backend development skills by creating a real-time trading data web scraper. Through this project, I learned how to utilize Puppeteer to scrape webpages and emit the data to the client-side using Socket.io, eliminating the need for a RESTful API. Additionally, I refined my Node.js and Express skills. The project was built with React, Puppeteer, Express, Socket.io, and Animate.css.
-
+Although Old this project allowed me to get better at backend systems, I built this project for a client who didn’t want to pay for an API, with the use of React, Puppeteer, Express, Socket.io and Animate.css. Though this project I learnt how to use puppeteer to scrape a webpage then emit the data to client side with socket.io without the need to use RESTful API (because it was slow) and I refined my node and express skills. 
 
 ## Key Features
 
