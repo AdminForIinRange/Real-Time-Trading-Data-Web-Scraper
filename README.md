@@ -1,3 +1,5 @@
+# Real-Time Trading Data Web Scraper (Read Disclaimer)
+
 > **Disclaimer**  
 > This Real-Time Trading Data Web Scraper is provided **solely for educational and demonstration purposes**. It is **not** intended to be used as a tool for live trading or financial decision-making.  
 > 
