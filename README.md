@@ -1,4 +1,13 @@
-# Real-Time Trading Data Web Scraper
+> **Disclaimer**  
+> This Real-Time Trading Data Web Scraper is provided **solely for educational and demonstration purposes**. It is **not** intended to be used as a tool for live trading or financial decision-making.  
+> 
+> - **No Financial Advice**: The author and contributors are **not** licensed financial advisors. Nothing in this code or its output should be construed as investment advice. Always consult a qualified financial professional before making any trading decisions.  
+> - **Accuracy & Liability**: Market data is inherently volatile and may be delayed, incomplete, or inaccurate. This tool is provided “as-is,” without warranties of any kind. The author disclaims all liability for any losses or damages arising from its use.  
+> - **Compliance & Terms of Service**: Users must ensure their scraping activities comply with the terms of service of any data provider or website. Unauthorized or excessive scraping may violate legal or contractual terms.  
+> - **No Warranty**: The author makes no representations or warranties regarding the reliability, suitability, or availability of the software, and disclaims liability for any interruptions or errors.  
+> 
+> Use this scraper responsibly and at your own risk.
+
 
 Although Old this project allowed me to get better at backend systems, I built this project for a client who didn’t want to pay for an API, with the use of React, Puppeteer, Express, Socket.io and Animate.css. Though this project I learnt how to use puppeteer to scrape a webpage then emit the data to client side with socket.io without the need to use RESTful API (because it was slow) and I refined my node and express skills. 
 
